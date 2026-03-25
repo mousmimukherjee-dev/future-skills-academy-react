@@ -7,7 +7,7 @@ import program_icon_1 from "../../assets/program-icon-1.png"
 import program_icon_2 from "../../assets/program-icon-2.png"
 import program_icon_3 from "../../assets/program-icon-3.png"
 import { useState } from 'react'
-import { Title } from '../title/Title'
+import { Title } from '../Title'
 
 
 export const Programs=()=> {

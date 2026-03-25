@@ -7,7 +7,7 @@ import user_2 from "../../assets/user-2.png"
 import user_3 from "../../assets/user-3.png"
 import user_4 from "../../assets/user-4.png"
 import { useState } from 'react'
-import { Title } from '../title/Title'
+import { Title } from '../Title'
 const Testimonials = () => {
 
   const [tX , setTX] = useState(0)

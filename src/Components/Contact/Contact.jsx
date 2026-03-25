@@ -6,7 +6,7 @@ import phone_icon from "../../assets/phone-icon.png"
 import location_icon from "../../assets/location-icon.png"
 import white_arrow from "../../assets/white-arrow.png"
 import { useState } from 'react'
-import { Title } from '../title/Title'
+import { Title } from '../Title'
 
 
 export const Contact = () => {
