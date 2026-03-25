@@ -30,9 +30,6 @@ const Testimonials = () => {
 
   return (
 
-   
-    
-   
     <div className={styles.testimonialPage}>
      <Title title="Testimonials" subTitle="What Student Says" />
      <div className={styles.testimonials}>

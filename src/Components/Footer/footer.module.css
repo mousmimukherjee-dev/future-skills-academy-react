@@ -1,5 +1,4 @@
-.footer{
-
+.footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -8,29 +7,23 @@
   width: 100%;
 }
 
-.footer ul li{
-
+.footer ul li {
   list-style: none;
   display: inline-block;
   margin-left: 20px;
 }
 
-
-@media screen and (max-width:768px) {
-
-  .footer{
-
+@media screen and (max-width: 768px) {
+  .footer {
     display: block;
     text-align: center;
   }
 
-  .footer ul li{
-
+  .footer ul li {
     margin: 10px;
   }
 
-  .footer ul{
-
+  .footer ul {
     margin-top: 10px;
   }
 }
