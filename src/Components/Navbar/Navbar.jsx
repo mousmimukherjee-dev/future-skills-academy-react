@@ -36,16 +36,11 @@ export const Navbar=({page ,setPage})=>{
 
     <nav className={`${styles.container} ${sticky ? styles.darkNav : ""}`}>
       <div className={styles.logo}>
-        <img src={graduation} alt="logo" ></img>
         <h2>Future Skills Academy</h2>
-      </div>
-      
-      
+      </div>  
       <ul className={`${styles.list} ${menu ? "" : styles.active}`}>
         {navItem.map((nav , index)=>(
-
          <li key={index} onClick={()=>handelPage(nav)}>{nav}</li>
-
         ))}    
         <li><button className={styles.btn} onClick={()=>handelPage("Contact")}>Contact Us</button></li>
       </ul>
